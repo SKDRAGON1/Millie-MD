@@ -5,14 +5,29 @@
 
 ## DEPLOY   
 - Create an Account on Github if you don't have already
-- Fork the Repo [Click Here](https://github.com/Neeraj-x0/Millie-MD/fork)
-- Scan QR by Clicking [Here](https://millie-qr.herokuapp.com/)
-- Create an account on heroku if you don't have already.
-- Click [Here](https://youtu.be/5yP-awzckYg) if you don't know how. 
-- Copy this link and paste it on your browser Change Neeraj-X0 to your github username <br>
+- Fork the Repo [Click Here](https://github.com/HMser/Millie-MD/fork)
+- Scan QR by Clicking [Here](https://lizaqr.onrender.com)
+- Copy this code and paste it on your vps shell<br>
 ```
-  https://heroku.com/deploy?template=https://github.com/Neeraj-x0/Millie-MD
+    sudo apt -y update &&  sudo apt -y upgrade
+  sudo apt -y install git ffmpeg curl
 ```  
+```
+curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
+```
+```
+  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+  echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+  sudo apt -y update && sudo apt -y install yarn
+```
+```
+  sudo yarn global add pm2
+```
+```
+  git clone https://github.com/HMser/Millie-MD
+  cd whatsapp-bot-md
+  yarn install --network-concurrency 1
+```
 
 
 </div>
