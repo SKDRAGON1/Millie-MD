@@ -6,7 +6,7 @@
 ## DEPLOY   
 - Create an Account on Github if you don't have already
 - Fork the Repo [Click Here](https://github.com/HMser/Millie-MD/fork)
-- Scan QR by Clicking [Here](https://lizaqr.onrender.com)
+- Scan QR by Clicking [Here](https://levanter.onrender.com/md)
 - Copy this code and paste it on your vps shell<br>
 ```
     sudo apt -y update &&  sudo apt -y upgrade
