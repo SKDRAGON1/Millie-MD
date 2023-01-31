@@ -25,7 +25,7 @@ curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y i
 ```
 ```
   git clone https://github.com/HMser/Millie-MD
-  cd whatsapp-bot-md
+  cd Millie-MD
   yarn install --network-concurrency 1
 ```
 
