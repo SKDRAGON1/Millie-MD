@@ -28,6 +28,21 @@ curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y i
   cd Millie-MD
   yarn install --network-concurrency 1
 ```
+```
+echo "THUMBNAIL_IMAGE = fill this
+THUMBNAIL_VIDEO = fill this
+LOG_MSG = fill this
+OWNER_NAME = fill this
+TIME_ZONE = Asia/Kolkata
+SUDO = fill this
+PREFIX = .
+BOT_NAME = fill this
+SESSION_ID = fill this" > config.env
+```
+
+```
+npm start
+```
 
 
 </div>
